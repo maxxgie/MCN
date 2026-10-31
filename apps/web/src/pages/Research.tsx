@@ -1,4 +1,4 @@
-import { Search, FileText, ExternalLink } from 'lucide-react'
+import { Search, ExternalLink } from 'lucide-react'
 
 export function Research() {
   return (
