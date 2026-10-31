@@ -1,0 +1,19 @@
+{
+  "name": "@mcn/application",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@mcn/domain": "*",
+    "@mcn/types": "*",
+    "@mcn/utils": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
